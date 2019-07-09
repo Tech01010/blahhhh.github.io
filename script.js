@@ -3,28 +3,28 @@ nlp = window.nlp_compromise;
 var messages = [], 
   lastUserMessage = "",
   botMessage = "",
-  botName = 'Chatbot',
+  botName = 'Adkubot',
   talking = true;
 
 function chatbotResponse() {
   talking = true;
-  botMessage = "I don't Understand";
+  botMessage = "ERROR ERROR ERROR ERROR";
 
   if(lastUserMessage.toLowerCase().includes("hi") || lastUserMessage.toLowerCase().includes("hey") || lastUserMessage.toLowerCase().includes("hello")) {
-    botMessage = "Hey there! how's it going?";
+    botMessage = "Hello human being need help?";
   }
 
-  if(lastUserMessage.toLowerCase().includes("good")) {
-    botMessage = "Thats good!";
-      if(lastUserMessage.toLowerCase().includes("you")) {
+  if(lastUserMessage.toLowerCase().includes("I need help with where the project is stored")) {
+    botMessage = "On Scratch and Python!";
+      if(lastUserMessage.toLowerCase().includes("how are you")) {
     botMessage = botMessage.concat(" I am good thank you for asking.");
     }
   }
-  if(lastUserMessage.toLowerCase().includes("name")) {
-    botMessage = "My name is Chatbot"
+  if(lastUserMessage.toLowerCase().includes("whats your name")) {
+    botMessage = "My name is AdkuBot"
   }
-  if(lastUserMessage.toLowerCase().includes("no")) {
-    botMessage = "Why so negative";
+  if(lastUserMessage.toLowerCase().includes("I hate you")) {
+    botMessage = "Im sorry to hear that :(";
   }
   if(lastUserMessage.toLowerCase().includes("gender") || lastUserMessage.toLowerCase().includes("male") || lastUserMessage.toLowerCase().includes("female")) {
     botMessage = "I am an artificial intelligance I have no gender.";
