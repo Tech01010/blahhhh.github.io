@@ -3,14 +3,14 @@ body {
   background-color: #d9d9d9;
   padding-top: 15px;
   padding-bottom: 15px;
-  color:red;
+  color:white;
 }
 
 #bodybox {
   margin: auto;
   max-width: 550px;
   font: 15px arial, sans-serif;
-  background-color: black;
+  background-color: blue;
   border-style: dashed;
   border-width: 4px;
   padding-top: 5px;
