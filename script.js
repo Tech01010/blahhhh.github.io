@@ -23,13 +23,13 @@ function chatbotResponse() {
   if(lastUserMessage.toLowerCase().includes("whats your name")) {
     botMessage = "My name is AdkuBot"
   }
-  if(lastUserMessage.toLowerCase().includes("I hate you")) {
+  if(lastUserMessage.toLowerCase().includes("hate you")) {
     botMessage = "Im sorry to hear that :(";
   }
   if(lastUserMessage.toLowerCase().includes("gender") || lastUserMessage.toLowerCase().includes("male") || lastUserMessage.toLowerCase().includes("female")) {
     botMessage = "I have no gender.";
   }
-  if(lastUserMessage.toLowerCase().includes("are you real") || lastUserMessage.toLowerCase().includes("are you") || lastUserMessage.toLowerCase().includes("arent you")) {
+  if(lastUserMessage.toLowerCase().includes("real/not") || lastUserMessage.toLowerCase().includes("are you") || lastUserMessage.toLowerCase().includes("arent you")) {
     botMessage = "No of cource im real in BOT form.";
   }
 }
