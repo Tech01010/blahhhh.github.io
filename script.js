@@ -31,6 +31,7 @@ function chatbotResponse() {
   }
   if(lastUserMessage.toLowerCase().includes("are you real") || lastUserMessage.toLowerCase().includes("are you") || lastUserMessage.toLowerCase().includes("arent you")) {
     botMessage = "No of cource im real in BOT form.";
+  }
 }
 
 function newEntry() {
