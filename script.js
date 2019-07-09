@@ -27,7 +27,7 @@ function chatbotResponse() {
     botMessage = "Im sorry to hear that :(";
   }
   if(lastUserMessage.toLowerCase().includes("gender") || lastUserMessage.toLowerCase().includes("male") || lastUserMessage.toLowerCase().includes("female")) {
-    botMessage = "I am an artificial intelligance I have no gender.";
+    botMessage = "I have no gender.";
   }
 }
 
